@@ -1,17 +1,17 @@
 const SlippageWrapper = styled.div`
-  align-items:center;
+  align-items: center;
   justify-content: space-between;
   padding: 16px 0px 16px 8px;
-  display: flex
+  display: flex;
 `;
 
 const ArrowDownWrapper = styled.div`
   transform: ${(props) =>
     props.show ? `scale(0.85) rotate(180deg)` : "scale(0.9)"};
   color: ${(props) => (props.show ? `white` : "#7e8a93")};
-   position: ${(props) => (props.show ? `relative` : "")};
+  position: ${(props) => (props.show ? `relative` : "")};
   top: ${(props) => (props.show ? `2px` : "")};
-  cursor:pointer
+  cursor: pointer;
 `;
 
 const ArrowDown = (
@@ -33,65 +33,63 @@ const ArrowDown = (
 
 const SlippageText = styled.span`
   font-size: 12px;
-  color: #7E8A93;
+  color: #7e8a93;
 `;
 
 const SettingWrapper = styled.div`
   display: flex;
-  align-items:center;
-  padding: 0px 8px
+  align-items: center;
+  padding: 0px 8px;
 `;
 
 const SettingLine = styled.div`
-  border: 1px solid #1A2E33;
-  width: 100%
-
+  border: 1px solid #1a2e33;
+  width: 100%;
 `;
 
 const SettingText = styled.span`
-  font-size:12px;
-  padding:0px 8px;
+  font-size: 12px;
+  padding: 0px 8px;
   display: flex;
-  align-items:center;
+  align-items: center;
   color: ${(props) => (props.show ? `white` : "#7e8a93")};
-  cursor:pointer
+  cursor: pointer;
 `;
 
 const Input = styled.input`
-    appearance: none;
-    outline: none;
-    background: none;
-    border: none;
-    width: 50px;
-    font-size: 12px;
-    color: #7E8A93;
-    ::-webkit-outer-spin-button, 
-    ::-webkit-inner-spin-button {   
-    -webkit-appearance: none; 
-    }
-    -moz-appearance: textfield; 
-        ::placeholder{
-        color:#7e8a93
-    }
-
+  appearance: none;
+  outline: none;
+  background: none;
+  border: none;
+  width: 50px;
+  font-size: 12px;
+  color: #7e8a93;
+  ::-webkit-outer-spin-button,
+  ::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+  -moz-appearance: textfield;
+  ::placeholder {
+    color: #7e8a93;
+  }
 `;
 
 const SlippageInputWrapper = styled.div`
   padding: 2px 4px;
   border: 1px solid #304352;
   border-radius: 6px;
-  display:flex;
-  align-items:center
+  display: flex;
+  align-items: center;
 `;
 
 const SlippageButton = styled.button`
   background: #304352;
   border-radius: 6px;
-  border:none;
-  color:white;
+  border: none;
+  color: white;
   font-size: 12px;
   padding: 4px 8px;
-  margin-left: 8px
+  margin-left: 8px;
 `;
 
 const { showSetting, setSlippagetolerance, slippagetolerance } = props;

@@ -163,75 +163,70 @@ const filterFunc = (tokenMeta) => {
 };
 
 const TokenLine = styled.div`
-    display: flex;
-    align-items: center;
-    padding: 8px 0px 8px 16px;
-    cusort:pointer;
-    :hover {
-        background: rgb(23,41,46)
-    }
+  display: flex;
+  align-items: center;
+  padding: 8px 0px 8px 16px;
+  cusort: pointer;
+  :hover {
+    background: rgb(23, 41, 46);
+  }
 `;
 
 const ListContainer = styled.div`
-    
-    height: 500px;
-    overflow: auto;
-    ::-webkit-scrollbar {
+  height: 500px;
+  overflow: auto;
+  ::-webkit-scrollbar {
     width: 4px;
     height: 4px;
     border-radius: 3px;
-    }
+  }
 
-    ::-webkit-scrollbar-track {
+  ::-webkit-scrollbar-track {
     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
-    }
+  }
 
-    ::-webkit-scrollbar-thumb {
-    background: #2F4D63;
+  ::-webkit-scrollbar-thumb {
+    background: #2f4d63;
     border-radius: 2px;
-    }
+  }
 `;
 
 const Input = styled.input`
-    
-    appearance: none;
-    outline: none;
-    width: 100%;
-    background: none;
-    border: none;
-    color: rgb(115, 129, 139);
-    padding: 8px 0px 8px 4px;
+  appearance: none;
+  outline: none;
+  width: 100%;
+  background: none;
+  border: none;
+  color: rgb(115, 129, 139);
+  padding: 8px 0px 8px 4px;
 
-    ::placeholder{
-        color:#7e8a93
-    }
+  ::placeholder {
+    color: #7e8a93;
+  }
 `;
 
 const ModalContainer = styled.div`
-    width: 325px;
-    border-radius: 12px;
-    background: rgb(27, 45, 52);
-    color: white;
-    padding-top:16px;
-    z-index: 999;
-    position:fixed;
-        top: 15vh;
-    left: 50%;
-    transform: translateX(-50%);
-    padding-bottom: 8px;
-
-    
+  width: 325px;
+  border-radius: 12px;
+  background: rgb(27, 45, 52);
+  color: white;
+  padding-top: 16px;
+  z-index: 999;
+  position: fixed;
+  top: 15vh;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-bottom: 8px;
 `;
 
 const Wrapper = styled.div`
-    position: fixed;
-    height: 100vh;
-    width: 100vw;
-    left: 0;
-    background: rgba(0, 0, 0, 0.5);
-    top: 0;
-    z-index:99;
-    
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  z-index: 99;
 `;
 
 if (!show) return <div />;

@@ -20,51 +20,50 @@ const ArrowDown = (
 );
 
 const TokenAmount = styled.div`
-    background: #1A2E33;
-    border-radius: 12px;
-    width:430px;
-    padding: 18px 16px;
-    color: white;
-    display: flex;
-    align-items:center
+  background: #1a2e33;
+  border-radius: 12px;
+  width: 430px;
+  padding: 18px 16px;
+  color: white;
+  display: flex;
+  align-items: center;
 `;
 
 const Input = styled.input`
-    appearance: none;
-    outline: none;
-    width: 100%;
-    background: none;
-    border: none;
-    font-size:20px;
-    ::placeholder{
-        color:#7e8a93
-    }
-    color:white;
-    ::-webkit-outer-spin-button, 
-    ::-webkit-inner-spin-button {   
-    -webkit-appearance: none; 
-    }
-    -moz-appearance: textfield; 
+  appearance: none;
+  outline: none;
+  width: 100%;
+  background: none;
+  border: none;
+  font-size: 20px;
+  ::placeholder {
+    color: #7e8a93;
+  }
+  color: white;
+  ::-webkit-outer-spin-button,
+  ::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+  -moz-appearance: textfield;
 `;
 
 const TokenWrapper = styled.div`
-    display: flex;
-    align-items:center;
-    color:white;
-    cursor:pointer;
+  display: flex;
+  align-items: center;
+  color: white;
+  cursor: pointer;
 `;
 
 const Icon = styled.img`
-
-  height:26px;
-  width:26px;
-  border-radius:100%;
+  height: 26px;
+  width: 26px;
+  border-radius: 100%;
 `;
 
 const Symbol = styled.span`
-  margin-right:8px;
-  margin-left:8px;
-  font-size:18px;
+  margin-right: 8px;
+  margin-left: 8px;
+  font-size: 18px;
 `;
 
 const account = fetch("https://rpc.mainnet.near.org", {
@@ -130,15 +129,15 @@ State.init({
 });
 
 const BalanceWrapper = styled.div`
-   color: #304352;
-   font-size:12px;
-   margin-left:8px;
-   padding-top:4px
+  color: #304352;
+  font-size: 12px;
+  margin-left: 8px;
+  padding-top: 4px;
 `;
 
 const Wrapper = styled.div`
-   position:relative;
-   margin-top: 8px
+  position: relative;
+  margin-top: 8px;
 `;
 
 const SelectToken = (

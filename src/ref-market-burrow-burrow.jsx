@@ -1,6 +1,4 @@
-const Container = styled.div`
-    
-`;
+const Container = styled.div``;
 const Backdrop = styled.div`
   height: 100vh;
   width: 100vw;
@@ -11,58 +9,58 @@ const Backdrop = styled.div`
   z-index: 1001;
 `;
 const Modal = styled.div`
-  background-color:#1A2E33;
-  border-radius:12px;
-  position:fixed;
-  z-index:1002;
-  width:30rem;
+  background-color: #1a2e33;
+  border-radius: 12px;
+  position: fixed;
+  z-index: 1002;
+  width: 30rem;
   max-width: 95vw;
   max-height: 80vh;
-  padding:10px 0 20px 0;
-  animation:anishow 0.3s forwards ease-out;
-  left:50%;
-  top:50%;
+  padding: 10px 0 20px 0;
+  animation: anishow 0.3s forwards ease-out;
+  left: 50%;
+  top: 50%;
   @keyframes anishow {
     from {
       opacity: 0;
-      transform:translate(-50%,-70%);
+      transform: translate(-50%, -70%);
     }
     to {
       opacity: 1;
-      transform:translate(-50%,-50%);
+      transform: translate(-50%, -50%);
     }
   }
-    .modal-header{
-      display:flex;
-      align-items:center;
-      justify-content:start;
-      color:#fff;
-      font-weight: 700;
-      font-size: 18px;
-      padding:12px 20px;
-      margin-bottom:16px;
-      border-bottom:2px solid rgba(48, 67, 82, 0.5);
-    } 
-    .modal-header .title{
-       font-weight: 700;
-       font-size: 18px;
-       color:#fff;
-    }
-    .modal-header .btn-close{
-      position:absolute;
-      right:28px;
-      margin:0;
-    }
-    .modal-body {
-        padding:0 16px;
-    }
-   .btn-close-custom{
-      position:absolute;
-      right:28px;
-      width:12px;
-      height:12px;
-      cursor:pointer;
-    }
+  .modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 12px 20px;
+    margin-bottom: 16px;
+    border-bottom: 2px solid rgba(48, 67, 82, 0.5);
+  }
+  .modal-header .title {
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+  }
+  .modal-header .btn-close {
+    position: absolute;
+    right: 28px;
+    margin: 0;
+  }
+  .modal-body {
+    padding: 0 16px;
+  }
+  .btn-close-custom {
+    position: absolute;
+    right: 28px;
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+  }
 `;
 /** base tool start  */
 let accountId = context.accountId;

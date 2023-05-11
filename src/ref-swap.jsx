@@ -86,11 +86,10 @@ const ExchangeIcon = (
 );
 
 const ExchangeWrapper = styled.div`
-  display:flex;
-  align-items:center;
-  justify-content:center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 16px;
-  
 `;
 
 const Exchange = <ExchangeWrapper>{ExchangeIcon}</ExchangeWrapper>;
@@ -141,38 +140,38 @@ if (!state.timerIntervalSet) {
 }
 
 const Container = styled.div`
-    width: 430px;
-    color: white;
+  width: 430px;
+  color: white;
 `;
 
 const Refresh = styled.span`
-  margin-left:8px;
-  font-size:12px
+  margin-left: 8px;
+  font-size: 12px;
 `;
 
 const RefreshText = styled.span`
-  margin-left:4px;
+  margin-left: 4px;
   font-size: 12px;
-  color: #7E8A93;
+  color: #7e8a93;
 `;
 
 const RateLine = styled.div`
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: space-between;
 `;
 
 const RefreshWrapper = styled.div`
   display: flex;
-  align-items:center;
-  cursor: pointer
+  align-items: center;
+  cursor: pointer;
 `;
 
 const RateWrapper = styled.div`
   display: flex;
-  align-items:center;
+  align-items: center;
   font-size: 12px;
-  color: #7E8A93
+  color: #7e8a93;
 `;
 
 const notEnough = new Big(state.amountIn || 0).gt(

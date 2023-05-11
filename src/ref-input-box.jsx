@@ -182,6 +182,7 @@ function getWnearIcon(icon) {
     wnearbase64: icon,
   });
 }
+console.log('test');
 return (
   <Container>
     {/* load icons */}

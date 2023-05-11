@@ -1,0 +1,23 @@
+{
+  "name": "bos-amy",
+  "version": "1.0.0",
+  "license": "MIT OR Apache-2.0",
+  "scripts": {
+    "start": "bos-loader juaner.near  -p src",
+    "prettier": "prettier --check src",
+    "prettier:fix": "prettier --write src"
+  },
+  "devDependencies": {
+  },
+  "dependencies": {
+  },
+  "browserslist": [
+    "last 2 Chrome versions"
+  ],
+  "resolutions": {
+  },
+  "alias": {
+  },
+  "staticFiles": {
+  }
+}

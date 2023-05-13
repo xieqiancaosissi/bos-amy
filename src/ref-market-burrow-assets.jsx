@@ -1,41 +1,4 @@
 const Container = styled.div`
-  .template {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: 6px;
-  }
-  .template .title {
-    font-size: 14px;
-    color: #7e8a93;
-  }
-  .template .value {
-    font-size: 14px;
-    color: #fff;
-  }
-  .mt_25 {
-    margin-top: 25px;
-  }
-  .mt-10 {
-    margin-top: 10px;
-  }
-  .greenButton {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #00ffd1;
-    border-radius: 12px;
-    height: 46px;
-    font-weight: 700;
-    font-size: 18px;
-    color: #000;
-    cursor: pointer;
-    width: 100%;
-  }
-  .disabled {
-    opacity: 0.3;
-    cursor: not-allowed;
-  }
   background: #1a2e33;
   .table {
     margin: 0;
